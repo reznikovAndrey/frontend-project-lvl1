@@ -6,3 +6,6 @@ brain-games: # start app
 
 publish: # publish package (mock)
 	npm publish --dry-run
+
+lint: # check linting rules
+	npx eslint .
