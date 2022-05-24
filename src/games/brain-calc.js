@@ -40,12 +40,8 @@ const calc = () => {
 
     const rightAnswer = askQuestionAndGetExpressionResult(num1, num2);
     const userAnswer = getUserAnswer();
-    // convert to number if possible
-    const userAnswerConverted = Number.isNaN(parseInt(userAnswer, 10))
-      ? userAnswer
-      : parseInt(userAnswer, 10);
 
-    isSucceed = getRoundResult(userAnswerConverted, rightAnswer, userName);
+    isSucceed = getRoundResult(userAnswer, rightAnswer, userName);
   } while (isSucceed && roundsForWin !== 0);
 
   if (isSucceed) {

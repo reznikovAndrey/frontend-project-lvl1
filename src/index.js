@@ -11,7 +11,10 @@ export const askQuestion = (questionText) => {
 
 export const getUserAnswer = () => {
   const userAnswer = question('Your answer: ');
-  return userAnswer;
+  // convert to number if possible
+  return Number.isNaN(parseInt(userAnswer, 10))
+    ? userAnswer
+    : parseInt(userAnswer, 10);
 };
 
 export const getRoundsQuantity = (roundsQuantity = 3) => roundsQuantity;
