@@ -3,11 +3,11 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/reznikovAndrey/frontend-project-lvl1)
 [![Eslint check](https://github.com/reznikovAndrey/frontend-project-lvl1/workflows/eslint-check/badge.svg)](https://github.com/reznikovAndrey/frontend-project-lvl1/actions)
 
-### Installation and start game 'Even / odd'
+### Installation and playing 'Even / odd'
 [![asciicast](https://asciinema.org/a/XKQBSZtMuRxgkWjgTIklmacou.svg)](https://asciinema.org/a/XKQBSZtMuRxgkWjgTIklmacou)
 
-### Start game 'Calculate'
+### Playing 'Calculate'
 [![asciicast](https://asciinema.org/a/1G1IAk8kkek46DLBMoxdffFOl.svg)](https://asciinema.org/a/1G1IAk8kkek46DLBMoxdffFOl)
 
-### Start game 'Greatest common divisor'
+### Playing 'Greatest common divisor'
 [![asciicast](https://asciinema.org/a/BgoITIokAZBQn9aUHrGpbpFo0.svg)](https://asciinema.org/a/BgoITIokAZBQn9aUHrGpbpFo0)
