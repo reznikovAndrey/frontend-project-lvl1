@@ -1,11 +1,6 @@
 import greeting from '../cli.js';
 import {
-  getRandomInteger,
-  askQuestion,
-  getUserAnswer,
-  getRoundsQuantity,
-  getWinMessage,
-  getRoundResult,
+  getRandomInteger, askQuestion, getUserAnswer, getRoundsQuantity, getWinMessage, getRoundResult,
 } from '../index.js';
 
 const getRightAnswer = (targetNum) => {
