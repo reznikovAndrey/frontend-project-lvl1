@@ -3,4 +3,8 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/reznikovAndrey/frontend-project-lvl1)
 [![Eslint check](https://github.com/reznikovAndrey/frontend-project-lvl1/workflows/eslint-check/badge.svg)](https://github.com/reznikovAndrey/frontend-project-lvl1/actions)
 
+### Installation and start game 'Even / odd'
 [![asciicast](https://asciinema.org/a/XKQBSZtMuRxgkWjgTIklmacou.svg)](https://asciinema.org/a/XKQBSZtMuRxgkWjgTIklmacou)
+
+### Start game 'Calculate'
+[![asciicast](https://asciinema.org/a/1G1IAk8kkek46DLBMoxdffFOl.svg)](https://asciinema.org/a/1G1IAk8kkek46DLBMoxdffFOl)
