@@ -16,6 +16,9 @@ brain-gcd: # start game 'Greatest common divisor'
 brain-progression: # start game 'Progression'
 	node bin/brain-progression.js
 
+brain-prime: # start game 'is prime'
+	node bin/brain-prime.js
+
 publish: # publish package (mock)
 	npm publish --dry-run
 

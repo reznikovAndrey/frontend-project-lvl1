@@ -14,3 +14,6 @@
 
 ### Playing 'Progression'
 [![asciicast](https://asciinema.org/a/pwLyPC1Ol6PocUM2F5XlKJ76R.svg)](https://asciinema.org/a/pwLyPC1Ol6PocUM2F5XlKJ76R)
+
+### Playing 'Is prime?'
+[![asciicast](https://asciinema.org/a/6vuutvgJdK1zpoEk3Xyjy5YeT.svg)](https://asciinema.org/a/6vuutvgJdK1zpoEk3Xyjy5YeT)
