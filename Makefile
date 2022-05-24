@@ -10,6 +10,9 @@ brain-even: # start game 'even / odd'
 brain-calc: # start game 'calucate'
 	node bin/brain-calc.js
 
+brain-gcd: # start game "Greatest common divisor"
+	node bin/brain-gcd.js
+
 publish: # publish package (mock)
 	npm publish --dry-run
 

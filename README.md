@@ -8,3 +8,6 @@
 
 ### Start game 'Calculate'
 [![asciicast](https://asciinema.org/a/1G1IAk8kkek46DLBMoxdffFOl.svg)](https://asciinema.org/a/1G1IAk8kkek46DLBMoxdffFOl)
+
+### Start game 'Greatest common divisor'
+[![asciicast](https://asciinema.org/a/BgoITIokAZBQn9aUHrGpbpFo0.svg)](https://asciinema.org/a/BgoITIokAZBQn9aUHrGpbpFo0)
