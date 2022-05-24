@@ -6,7 +6,7 @@ import {
 const getRightAnswer = (targetNum) => {
   let isPrime = true;
 
-  for (let i = 2; i < Math.sqrt(targetNum); i += 1) {
+  for (let i = 2; i <= Math.sqrt(targetNum); i += 1) {
     if (targetNum % i === 0) {
       isPrime = false;
     }
