@@ -11,3 +11,6 @@
 
 ### Playing 'Greatest common divisor'
 [![asciicast](https://asciinema.org/a/BgoITIokAZBQn9aUHrGpbpFo0.svg)](https://asciinema.org/a/BgoITIokAZBQn9aUHrGpbpFo0)
+
+### Playing 'Progression'
+[![asciicast](https://asciinema.org/a/pwLyPC1Ol6PocUM2F5XlKJ76R.svg)](https://asciinema.org/a/pwLyPC1Ol6PocUM2F5XlKJ76R)
