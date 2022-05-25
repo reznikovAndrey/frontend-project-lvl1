@@ -4,10 +4,10 @@ install: # install dependencies
 brain-games: # start app
 	node bin/brain-games.js
 
-brain-even: # start game 'even / odd'
+brain-even: # start game 'Is even?'
 	node bin/brain-even.js
 
-brain-calc: # start game 'calucate'
+brain-calc: # start game 'Calculate'
 	node bin/brain-calc.js
 
 brain-gcd: # start game 'Greatest common divisor'
@@ -16,7 +16,7 @@ brain-gcd: # start game 'Greatest common divisor'
 brain-progression: # start game 'Progression'
 	node bin/brain-progression.js
 
-brain-prime: # start game 'is prime'
+brain-prime: # start game 'Is prime?'
 	node bin/brain-prime.js
 
 publish: # publish package (mock)

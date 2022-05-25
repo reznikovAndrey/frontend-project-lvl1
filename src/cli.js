@@ -1,10 +1,52 @@
 import { question } from 'readline-sync';
 
-const greeting = () => {
-  console.log('Welcome to the Brain Games!');
+export const greeting = () => console.log('Welcome to the Brain Games!');
+
+export const greetUser = (userName) => console.log(`Hello, ${userName}!`);
+
+export const getUserName = () => {
   const userName = question('May I have your name? ');
-  console.log(`Hello, ${userName}!`);
   return userName;
 };
 
-export default greeting;
+export const gameIntro = (gameName) => {
+  switch (gameName) {
+    case 'gameIsEven':
+      console.log('Answer "yes" if the number is even, otherwise answer "no".');
+      break;
+    case 'gameCalculation':
+      console.log('What is the result of the expression?');
+      break;
+    case 'gameGreatestCommonDivisor':
+      console.log('Find the greatest common divisor of given numbers.');
+      break;
+    case 'gameIsPrime':
+      console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
+      break;
+    case 'gameProgression':
+      console.log('What number is missing in the progression?');
+      break;
+    default:
+      break;
+  }
+};
+
+export const askQuestion = (questionBody) => console.log(`Question: ${questionBody}`);
+
+export const getUserAnswer = () => {
+  const userAnswer = question('Your answer: ');
+  // convert to number if possible
+  return Number.isNaN(parseInt(userAnswer, 10))
+    ? userAnswer
+    : parseInt(userAnswer, 10);
+};
+
+export const messageAfterSuccessRound = () => console.log('Correct!');
+
+export const messageAfterUnseccessRound = (userAnswer, rightAnswer) => {
+  console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${rightAnswer}'.`);
+};
+
+export const winMessage = (userName) => console.log(`Congratulations, ${userName}!`);
+
+export const loseMessage = (userName) => console.log(`Let's try again, ${userName}!`);
