@@ -70,7 +70,7 @@ export const gameFlow = (gameName) => {
       }
       case 'gameProgression': {
         const progression = getProgression();
-        const hideIdx = getRandomInteger(0, progression.length + 1);
+        const hideIdx = getRandomInteger(0, progression.length);
         rightAnswer = progression[hideIdx];
         progression[hideIdx] = '..';
         askQuestion(progression.join(' '));
