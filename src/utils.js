@@ -54,5 +54,3 @@ export const isEven = (num) => {
   const isOdd = num % 2;
   return isOdd ? 'no' : 'yes';
 };
-
-export const getRoundResult = (userAnswer, rightAnswer) => userAnswer === rightAnswer;
