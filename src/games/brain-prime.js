@@ -29,7 +29,7 @@ const gameIsPrime = () => {
 
   do {
     roundsForWin -= 1;
-    const num = getRandomInteger(1, 10);
+    const num = getRandomInteger();
     askQuestion(num);
 
     const expectedAnswer = isPrime(num) ? 'yes' : 'no';

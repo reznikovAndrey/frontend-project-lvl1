@@ -70,7 +70,7 @@ export const isPrime = (num) => {
 
 export const getProgression = () => {
   const progressionLength = getRandomInteger(5, 10);
-  const progressionStep = getRandomInteger(1, 10);
+  const progressionStep = getRandomInteger();
   const progression = [getRandomInteger()];
 
   for (let i = 0; i < progressionLength; i += 1) {
