@@ -94,8 +94,8 @@ export const gameFlow = (gameName) => {
 
 export const gameEnd = (success) => {
   if (success) {
-    winMessage();
+    winMessage(userName);
   } else {
-    loseMessage();
+    loseMessage(userName);
   }
 };
