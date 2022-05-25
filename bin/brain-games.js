@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
-import { gamePreparation } from '../src/index.js';
+import { greeting, getUserName, greetUser } from '../src/cli.js';
 
-gamePreparation();
+greeting();
+greetUser(getUserName());
