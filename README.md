@@ -16,7 +16,7 @@ Brain games - 5 simple command line iterface games:
 - Javascript
 - Bash
 
-## Installation
+## Installation [asciicast](#installation)
 
 Clone project
 ```sh
