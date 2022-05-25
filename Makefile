@@ -1,26 +1,26 @@
-install: # install dependencies
+install:
 	npm ci
 
-brain-games: # start app
+brain-games:
 	node bin/brain-games.js
 
-brain-even: # start game 'Is even?'
+brain-even:
 	node bin/brain-even.js
 
-brain-calc: # start game 'Calculate'
+brain-calc:
 	node bin/brain-calc.js
 
-brain-gcd: # start game 'Greatest common divisor'
+brain-gcd:
 	node bin/brain-gcd.js
 
-brain-progression: # start game 'Progression'
+brain-progression:
 	node bin/brain-progression.js
 
-brain-prime: # start game 'Is prime?'
+brain-prime:
 	node bin/brain-prime.js
 
-publish: # publish package (mock)
+publish:
 	npm publish --dry-run
 
-lint: # check linting rules
+lint:
 	npx eslint .
