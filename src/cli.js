@@ -2,14 +2,19 @@ import { question } from 'readline-sync';
 
 export const greeting = () => console.log('Welcome to the Brain Games!');
 
-export const greetUser = (userName) => console.log(`Hello, ${userName}!`);
-
 export const getUserName = () => {
   const userName = question('May I have your name? ');
   return userName;
 };
 
-export const gameIntro = (gameName) => {
+export const greetUser = (userName) => console.log(`Hello, ${userName}!`);
+
+export const getUserAnswer = () => {
+  const userAnswer = question('Your answer: ');
+  return userAnswer;
+};
+
+export const displayGameRules = (gameName) => {
   switch (gameName) {
     case 'gameIsEven':
       console.log('Answer "yes" if the number is even, otherwise answer "no".');
@@ -33,20 +38,18 @@ export const gameIntro = (gameName) => {
 
 export const askQuestion = (questionBody) => console.log(`Question: ${questionBody}`);
 
-export const getUserAnswer = () => {
-  const userAnswer = question('Your answer: ');
-  // convert to number if possible
-  return Number.isNaN(parseInt(userAnswer, 10))
-    ? userAnswer
-    : parseInt(userAnswer, 10);
+export const displayMessageAfterRoundEnd = (userAnswer, expectedAnswer) => {
+  if (userAnswer === expectedAnswer) {
+    console.log('Correct!');
+  } else {
+    console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${expectedAnswer}'.`);
+  }
 };
 
-export const messageAfterSuccessRound = () => console.log('Correct!');
-
-export const messageAfterUnseccessRound = (userAnswer, rightAnswer) => {
-  console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${rightAnswer}'.`);
+export const displayMessageAfterGameEnd = (isGameSuccessful, userName) => {
+  if (isGameSuccessful) {
+    console.log(`Congratulations, ${userName}!`);
+  } else {
+    console.log(`Let's try again, ${userName}!`);
+  }
 };
-
-export const winMessage = (userName) => console.log(`Congratulations, ${userName}!`);
-
-export const loseMessage = (userName) => console.log(`Let's try again, ${userName}!`);

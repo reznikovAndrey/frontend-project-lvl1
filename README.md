@@ -18,9 +18,13 @@ Brain games - 5 simple command line iterface games:
 
 ## Installation
 
-Clone project and go in project dir
+Clone project
 ```sh
-git@github.com:reznikovAndrey/frontend-project-lvl1.git
+git clone git@github.com:reznikovAndrey/frontend-project-lvl1.git
+```
+
+Go in project dir
+```sh
 cd frontend-project-lvl1
 ```
 
@@ -35,21 +39,27 @@ Install packet in your system
 npm link 
 ```
 
-Please, watch asciinema recs with games gameplay below.
+### Installation
+[![asciicast](https://asciinema.org/a/kZNghaXSvpMIqMGcPmBByqzvW.svg)](https://asciinema.org/a/kZNghaXSvpMIqMGcPmBByqzvW)
 
-### Installation and playing 'Is even?'
-[![asciicast](https://asciinema.org/a/XKQBSZtMuRxgkWjgTIklmacou.svg)](https://asciinema.org/a/XKQBSZtMuRxgkWjgTIklmacou)
+
+Please, watch asciicasts with each game gameplay below.
+
+### Playing 'Is even?'
+[![asciicast](https://asciinema.org/a/CWcgB9zJsjAcpUUbRXbUHqwwD.svg)](https://asciinema.org/a/CWcgB9zJsjAcpUUbRXbUHqwwD)
 
 ### Playing 'Calculate'
-[![asciicast](https://asciinema.org/a/1G1IAk8kkek46DLBMoxdffFOl.svg)](https://asciinema.org/a/1G1IAk8kkek46DLBMoxdffFOl)
+[![asciicast](https://asciinema.org/a/hdVxnithDw2zyRhkS0NRw3erT.svg)](https://asciinema.org/a/hdVxnithDw2zyRhkS0NRw3erT)
 
 ### Playing 'Greatest common divisor'
-[![asciicast](https://asciinema.org/a/BgoITIokAZBQn9aUHrGpbpFo0.svg)](https://asciinema.org/a/BgoITIokAZBQn9aUHrGpbpFo0)
-
-### Playing 'Progression'
-[![asciicast](https://asciinema.org/a/pwLyPC1Ol6PocUM2F5XlKJ76R.svg)](https://asciinema.org/a/pwLyPC1Ol6PocUM2F5XlKJ76R)
+[![asciicast](https://asciinema.org/a/cvkbwcoLYY2uTURZuI00o8CT1.svg)](https://asciinema.org/a/cvkbwcoLYY2uTURZuI00o8CT1)
 
 ### Playing 'Is prime?'
-[![asciicast](https://asciinema.org/a/6vuutvgJdK1zpoEk3Xyjy5YeT.svg)](https://asciinema.org/a/6vuutvgJdK1zpoEk3Xyjy5YeT)
+[![asciicast](https://asciinema.org/a/VWP0krBAvsf4geXgl1YoOGHPh.svg)](https://asciinema.org/a/VWP0krBAvsf4geXgl1YoOGHPh)
 
-Author: Andrey Reznikov
+### Playing 'Progression'
+[![asciicast](https://asciinema.org/a/KNaiYIoSfRzFcXQCJHs4ngWVR.svg)](https://asciinema.org/a/KNaiYIoSfRzFcXQCJHs4ngWVR)
+
+### Authors:
+
+- Andrey Reznikov
