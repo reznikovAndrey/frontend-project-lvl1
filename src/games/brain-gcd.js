@@ -1,12 +1,10 @@
 import {
-  greeting,
-  getUserName,
-  greetUser,
-  displayGameRules,
   askQuestion,
-  getUserAnswer,
-  displayMessageAfterRoundEnd,
+  displayGameRules,
   displayMessageAfterGameEnd,
+  displayMessageAfterRoundEnd,
+  getUserAnswer,
+  greetAndGetUserName,
 } from '../cli.js';
 import {
   ROUNDS_QUANTITY,
@@ -17,10 +15,7 @@ import {
 } from '../index.js';
 
 const gameGreatestCommonDivisor = () => {
-  greeting();
-
-  const userName = getUserName();
-  greetUser(userName);
+  const userName = greetAndGetUserName();
 
   const gameName = gameGreatestCommonDivisor.name;
   displayGameRules(gameName);

@@ -1,12 +1,10 @@
 import {
-  greeting,
-  getUserName,
-  greetUser,
-  displayGameRules,
   askQuestion,
-  getUserAnswer,
-  displayMessageAfterRoundEnd,
+  displayGameRules,
   displayMessageAfterGameEnd,
+  displayMessageAfterRoundEnd,
+  getUserAnswer,
+  greetAndGetUserName,
 } from '../cli.js';
 import {
   ROUNDS_QUANTITY,
@@ -18,10 +16,7 @@ import {
 } from '../index.js';
 
 const gameProgression = () => {
-  greeting();
-
-  const userName = getUserName();
-  greetUser(userName);
+  const userName = greetAndGetUserName();
 
   const gameName = gameProgression.name;
   displayGameRules(gameName);

@@ -4,9 +4,7 @@ import {
   displayMessageAfterGameEnd,
   displayMessageAfterRoundEnd,
   getUserAnswer,
-  getUserName,
-  greeting,
-  greetUser,
+  greetAndGetUserName,
 } from '../cli.js';
 import {
   ROUNDS_QUANTITY,
@@ -17,10 +15,7 @@ import {
 } from '../index.js';
 
 const gameCalculation = () => {
-  greeting();
-
-  const userName = getUserName();
-  greetUser(userName);
+  const userName = greetAndGetUserName();
 
   const gameName = gameCalculation.name;
   displayGameRules(gameName);
