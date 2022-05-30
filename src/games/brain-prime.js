@@ -4,7 +4,7 @@ import {
   displayMessageAfterGameEnd,
   displayMessageAfterRoundEnd,
   getUserAnswer,
-  greetAndGetUserName,
+  greetAndSetUserName,
 } from '../cli.js';
 import {
   ROUNDS_QUANTITY,
@@ -14,7 +14,7 @@ import {
 } from '../index.js';
 
 const gameIsPrime = () => {
-  const userName = greetAndGetUserName();
+  const userName = greetAndSetUserName();
 
   const gameName = gameIsPrime.name;
   displayGameRules(gameName);

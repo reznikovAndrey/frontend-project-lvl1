@@ -2,16 +2,16 @@ import { question } from 'readline-sync';
 
 const greeting = () => console.log('Welcome to the Brain Games!');
 
-const getUserName = () => {
+const setUserName = () => {
   const userName = question('May I have your name? ');
   return userName;
 };
 
 const greetUser = (userName) => console.log(`Hello, ${userName}!`);
 
-export const greetAndGetUserName = () => {
+export const greetAndSetUserName = () => {
   greeting();
-  const userName = getUserName();
+  const userName = setUserName();
   greetUser(userName);
   return userName;
 };
